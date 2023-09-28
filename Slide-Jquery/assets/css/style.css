@@ -1,0 +1,51 @@
+.slider{
+    width: 960px;
+    position: relative;
+}
+
+.images{
+    width: 100%;
+}
+
+.slider-area{
+    width: 960px !important;
+}
+
+.slider img{
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.slider i{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+}
+
+.slider .icons{
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.slider .icons i:nth-child(1){
+    left: 10px;
+    cursor: pointer;
+}
+
+.slider .icons i:nth-child(2){
+    right: 10px;
+    cursor: pointer;
+}
+
+.active-slider{
+    opacity: 1 !important;
+} 
+
+
+
+
+
+ 
